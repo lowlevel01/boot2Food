@@ -7,11 +7,11 @@ start:
     mov al, 0x03
     int 0x10
 
-    ; Set cursor to center of screen (row 12, col 30)
+    ; Set cursor to center of screen (row 12, col 17)
     mov ah, 0x02       
     xor bh, bh       
     mov dh, 12         ; Row 12 (middle of 25 rows)
-    mov dl, 17         ; Column 30 (roughly center for our message)
+    mov dl, 17         ; Column 17
     int 0x10
 
     ; Print welcome message with yellow text on blue background
