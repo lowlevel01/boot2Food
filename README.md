@@ -1,5 +1,5 @@
 # boot2Food
-boot2Food is a bootsector game. You need to be fast to reach the apple which has a life of roughly 5 seconds. If you don't, you start from the beginning!
+boot2Food is a bootsector game. You need to be fast to reach the apple which has a life of roughly 5 seconds. If you don't, you re-start from the beginning!
 
 ## How to run
 
